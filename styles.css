@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: inline;
+}
+
+button {
+    background-color: #5783db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline;
+}
+
+button:hover {
+    background-color: #4681f4;
+}
+
+.button:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #5783db;
+}
+
+#country-info-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#error-message-container {
+    color: #ff3333;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
